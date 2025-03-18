@@ -1,7 +1,7 @@
 import React, { useContext, useEffect } from "react";
 import Sidebar from "./components/sidebar";
 import Player from "./components/player";
-import Display from "./components/display";
+import Display from "./components/Display";
 import { PlayerContext } from "./context/PlayerContext";
 
 const App = () => {
