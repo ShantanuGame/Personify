@@ -86,7 +86,7 @@ import music16 from "./english/Flight-Song.mp3";
 import music17 from "./english/Forever-Young.mp3";
 import music18 from "./english/Glad-You-Came.mp3";
 import music19 from "./english/Heart-Attack.mp3";
-import music20 from "./english/I-Love-You-So.mp3";
+import music20 from "./english/i-Love-You-So.mp3";
 import music21 from "./english/I-Wanna-Be-Yours.mp3";
 import music22 from "./english/Im-Good.mp3";
 import music23 from "./english/La-Da-Dee.mp3";
