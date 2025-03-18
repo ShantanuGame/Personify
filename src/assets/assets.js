@@ -43,7 +43,7 @@ import img16 from './img16.jpg'
 //hindi songs.
 import song1 from './chill hindi/Aankhon-Mein.mp3';
 import song2 from './chill hindi/Ale-golamal3.mp3';
-import song3 from './chill hindi/Bheegi-Si-Bhaagi-si.mp3';
+import song3 from './chill hindi/Bheegi-Si-Bhaagi-Si.mp3';
 import song4 from './chill hindi/falak_tak.mp3';
 import song5 from './chill hindi/Gallan Goodiyaan.mp3';
 import song6 from './chill hindi/Humraah.mp3';
