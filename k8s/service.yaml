@@ -1,20 +1,12 @@
-
-apiVersion: apps/v1
-kind: Deployment
+apiVersion: v1
+kind: Service
 metadata:
-  name: spotify-clone
+  name: spotify-service
 spec:
-  replicas: 1
   selector:
-    matchLabels:
-      app: spotify-clone
-  template:
-    metadata:
-      labels:
-        app: spotify-clone
-    spec:
-      containers:
-        - name: spotify-clone
-          image: <your-dockerhub-username>/spotify-clone:latest
-          ports:
-            - containerPort: 80
+    app: spotify-clone
+  type: NodePort
+  ports:
+    - port: 80
+      targetPort: 80
+      nodePort: 30007
